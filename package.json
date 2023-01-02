@@ -4,8 +4,8 @@
   "description": "This is a test telegtam bot",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
-    "dev": "nodemon index.js --preset=env"
+    "start": "node ./src/index.js",
+    "dev": "nodemon ./src/index.js --presets=@babel/env"
   },
   "author": "",
   "license": "ISC",
@@ -17,6 +17,9 @@
     "telebot": "^1.4.1"
   },
   "devDependencies": {
+    "@babel/cli": "^7.20.7",
+    "@babel/core": "^7.20.7",
+    "@babel/preset-env": "^7.20.2",
     "babel-cli": "^6.26.0",
     "babel-preset-env": "^1.7.0"
   }
