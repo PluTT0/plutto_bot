@@ -14,6 +14,7 @@ const { BOT_TOKEN, SERVER_URL, PORT, DBconnection} = process.env;
 
 // connect to database
 connectDB(DBconnection);
+
 //server and bot initialization
 const bot = new TelegramBot(BOT_TOKEN);
 bot.setWebHook(`${SERVER_URL}/bot${BOT_TOKEN}`);
