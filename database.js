@@ -1,5 +1,4 @@
-{
-    "locations":[
+const dataBase = [
         {
             "uuid": "f123",
             "name": "Acction Power cafe",
@@ -71,7 +70,16 @@
             "country": "pl",
             "adress": "irzevska str. 18",
             "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed veritatis quidem illo harum, doloremque recusandae, dolorem cumque, quam corrupti fugiat velit magni tempora. Pariatur et aspernatur ab, ipsam voluptatum aperiam?"
+        },
+        {
+            "uuid": "f12d113",
+            "name": "Orbita",
+            "type": "work_space, restourant",
+            "country": "pl",
+            "adress": "irzevska str. 18",
+            "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed veritatis quidem illo harum, doloremque recusandae, dolorem cumque, quam corrupti fugiat velit magni tempora. Pariatur et aspernatur ab, ipsam voluptatum aperiam?"
         }
 
-    ]
-}
+];
+
+export default dataBase;

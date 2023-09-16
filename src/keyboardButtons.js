@@ -1,13 +1,14 @@
 const userKeboard = {
-    sertch: 'Get locations',
-    create: 'Enter Information',
-    edit: 'Edit Information',
+    filter: 'Filter locations',
+    info: 'Information',
+    allLocations: 'Get all locations',
 }
 
 const locations = {
     club: 'Club',
     pavilion: 'Pavilion',
-    restourant: 'Restourant'
+    restourant: 'Restourant',
+    work_space: 'Work space'
 }
 
 const backButton = {
